@@ -1,0 +1,113 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+
+  - name: "Home" 
+    label: "Home"
+    folder: "content/en"
+    create: false
+    fields:
+      - { label: "Home", name: "title", widget: "string" }
+      - { label: "Banner Image", name: "description", widget: "text" }
+  
+  - name: "Footer" 
+    label: "Footer"
+    folder: "content/english/footer"
+    create: false
+    fields:
+      - { label: "Footer Title", name: "title", widget: "string" }
+      - { label: "Footer Content", name: "footer_content", widget: "string" }
+      - { label: "Footer Logo", name: "footer_logo", widget: "image" }
+      - { label: "Instagram Link", name: "instagram_link", widget: "string" }
+      - { label: "Facebook Link", name: "facebook_link", widget: "string" }
+      - { label: "Twitter Link", name: "twitter_link", widget: "string" }
+      - { label: "Linkedin Link", name: "linkedin_link", widget: "string" }
+      - { label: "Footer Type", name: "type", widget: "string" }
+
+  - name: "About Us" 
+    label: "About Us"
+    folder: "content/english/about-us"
+    create: false
+    fields:
+      - { label: "About Title", name: "title", widget: "string" }
+      - { label: "Vision", name: "vision_title", widget: "string" }
+      - { label: "Vision Content", name: "vision_content", widget: "string" }
+      - { label: "Mission", name: "mission_title", widget: "string" }
+      - { label: "Mission Content", name: "mission_content", widget: "string" }
+      - { label: "Welcome Title", name: "welcome_title", widget: "string" }
+      - { label: "Welcome Content", name: "welcome_content", widget: "string" }
+      - { label: "What We Do Title", name: "what_we_do_title", widget: "string" }
+      - { label: "What We Do Content", name: "what_we_do_content", widget: "string" }
+      - { label: "What More Title", name: "what_more_title", widget: "string" }
+      - { label: "What More Content", name: "what_more_content", widget: "string" }
+
+  - name: "STC Scheme" 
+    label: "STC Scheme"
+    folder: "content/english/stc-scheme"
+    create: false
+    fields:
+      - { label: "STC Title", name: "title", widget: "string" }
+      - { label: "STC Heading", name: "stc_heading", widget: "string" }
+      - { label: "STC Calculator Link", name: "stc_calculator_link", widget: "string" }
+      - { label: "STC Note 1", name: "note_1", widget: "string" }
+      - { label: "STC Note 2", name: "note_2", widget: "string" }
+      - { label: "Value Per STC Points Today", name: "value_per_stc_points_today", widget: "string" }
+      
+  - name: "Blog" 
+    label: "Blog"
+    folder: "content/english/blog"
+    create: true
+    fields:
+      - { label: "Blog Title", name: "title", widget: "string" }
+      - { label: "Blog URL", name: "slug", widget: "string" }
+      - { label: "Blog Image", name: "image", widget: "image" }
+      - { label: "Blog Title", name: "blogtitle", widget: "string" }
+      - { label: "Blog Description 1", name: "blogdescription1", widget: "string" }
+      - { label: "Blog Description 2", name: "blogdescription2", widget: "string" }
+      - { label: "Blog Date", name: "date", widget: "date" }
+      - { label: 'Blog post content', name: 'body', widget: 'markdown' }
+
+
+  - name: 'Contact'
+    label: 'Contact'
+    folder: 'content/english/contact'
+    create: false
+    fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Contact Heading', name: 'heading', widget: 'string' }
+        - { label: 'Phone No', name: 'phone', widget: 'string'}
+        - { label: 'Email Id', name: 'email', widget: 'string'}
+        - { label: 'Address', name: 'address', widget: 'string'}
+        - { label: 'Description', name: 'description', widget: 'string'}
+
+ 
+
+  
+ 
+
+ 
+  
+   
+ 
+ 
+
+ 
+
+  
+   
+  
+ 
+  
+  
+ 
+  
+   
+  
+  
+   
+  
+  
+  
